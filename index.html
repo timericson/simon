@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Simon</title>
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="favicon.ico">
+
+  <!-- Links to Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300|Teko:700&display=swap" rel="stylesheet">
+</head>
+
+<body class="body">
+
+  <h1 id="level-title">Press A Key to Start</h1>
+
+  <div class="my-container adjust">
+
+    <!-- Color Buttons -->
+    <img id="green" src="images/green.svg" width="321" alt="" class="green btn">
+    <img id="blue" src="images/blue.svg" width="321" alt="" class="blue btn">
+    <img id="yellow" src="images/yellow.svg" width="321" alt="" class="yellow btn">
+    <img id="red" src="images/red.svg" width="321" alt="" class="red btn">
+
+    <!-- UI Front Panel -->
+    <img src="images/blackCircle.svg" alt="" class="black-circle">
+    <img class="white-circle" src="images/whiteCircle.svg" alt="">
+    <h3 class="simon-label">simon</h3>
+
+    <!-- Front Panel Buttons -->
+    <img id="start-btn" class="btn-click start red-switch" src="images/red-switch.svg" alt="">
+    <img id="replay-btn" class="btn-click replay yellow-switch" src="images/yellow-switch.svg" alt="">
+
+    <!-- Front Panel Labels -->
+    <h3 class="start-button-label">START</h3>
+    <h3 class="replay-button-label">REPLAY LAST</h3>
+
+  </div>
+
+  <!-- JQuery and Javascript Links -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="game.js" charset="utf-8"></script>
+</body>
+
+</html>

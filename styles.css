@@ -1,0 +1,148 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin: 5%;
+  color: #FEF2BF;
+}
+
+#match-label {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2rem;
+  margin: 3%;
+  color: #FEF2BF;
+}
+
+.simon-label {
+  font-family: 'Teko', sans-serif;
+  Teko: 400, 700;
+  font-size: 4rem;
+  position: absolute;
+  z-index: 5;
+  left: 74%;
+  top: 225px;
+}
+
+.black-circle {
+  position: absolute;
+  z-index: 2;
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: left;
+}
+
+.white-circle {
+  position: absolute;
+  z-index: 2;
+  width: 19%;
+  left: 70.3%;
+  top: 260px;
+}
+
+.adjust {
+  left: 10%;
+}
+
+.my-container {
+  position: absolute;
+  z-index: 1;
+  display: block;
+  min-width: 1260px;
+  /* -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between; */
+  justify-content: space-between;
+  text-align: center;
+}
+
+.green {
+  position: absolute;
+  left: auto;
+  top: 40px;
+  right: 275px;
+  z-index: 3;
+}
+
+.red {
+  position: absolute;
+  left: 1025px;
+  top: 40px;
+  right: 0px;
+  z-index: 3;
+  margin-left: 0px;
+}
+
+.yellow {
+  position: absolute;
+  left: auto;
+  right: 275px;
+  bottom: -720px;
+  z-index: 3;
+}
+
+.blue {
+  position: absolute;
+  left: 1025px;
+  top: auto;
+  bottom: -720px;
+  z-index: 3;
+}
+
+.pressed {
+  width: 37px;
+  height: 40px;
+  background-color: #black;
+  border-radius: 100%;
+  */ box-shadow: 0 0 5 0px #333;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red-switch {
+  position: absolute;
+  z-index: 1;
+  display: block;
+  max-width: 3%;
+  left: 74%;
+  top: 385px;
+  z-index: 3;
+}
+
+.yellow-switch {
+  position: absolute;
+  z-index: 1;
+  display: block;
+  max-width: 3%;
+  left: 81.5%;
+  top: 385px;
+  z-index: 3;
+}
+
+.start-button-label {
+  position: absolute;
+  z-index: 3;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  left: 73.7%;
+  top: 654px;
+  top: 413px;
+}
+
+.replay-button-label {
+  position: absolute;
+  z-index: 3;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  left: 79%;
+  top: 654px;
+  top: 413px;
+}
