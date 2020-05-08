@@ -1,3 +1,7 @@
+// TODO It is possible to press relpay last during a sequence being played potentially causing chaos.
+
+
+
 // Game Variables
 var buttonColors = ["red", "blue", "green", "yellow"];
 var gameStarted = false;
